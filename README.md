@@ -1,4 +1,4 @@
-<h1 align=center> Projeto Sharenergy - Vaga DEV Back-End Jr. - Thiago Daniel Alvim Rodrigues</hi> <br>
+<h1 align=center> Projeto Sharenergy - Vaga DEV Back-End Jr. <br> Thiago Daniel Alvim Rodrigues</hi> <br>
 
 <p align="center">
   <img src="./docs/logo.jpeg" width="50%">
