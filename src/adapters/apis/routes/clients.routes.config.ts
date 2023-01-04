@@ -13,6 +13,9 @@ export class ClientsRoutes extends CommonRoutesConfig {
         this.app.route(`/clients`) 
                 .all(LoginAuthMiddleware.checkAuth) // Verifica se o usuário está logado para executar açoes de cliente
                 .get(clientsController.listClients) // lista todos os clientes
+        
+        this.app.route(`/clients/create`) 
+                .all(LoginAuthMiddleware.checkAuth) // Verifica se o usuário está logado para executar açoes de cliente
                 .post(
                     clientsMiddleware.validateRequiredNameBodyFields, // valida se o campo nome foi preenchido
                     clientsMiddleware.validateRequiredEmailBodyFields, // valida se o campo email foi preenchido
