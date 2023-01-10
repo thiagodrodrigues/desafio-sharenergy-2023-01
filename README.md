@@ -98,6 +98,11 @@ Esperamos de você duas entregas: o código no GitHub e um vídeo explicativo no
 O pull request com sua solução do desafio deve ser feito até o prazo limite de entrega, às 23:59 horas do dia 10/01/2023, recebido por email com a descrição do desafio.
 
 
+## :movie_camera: Vídeo Apresentativo do Projeto
+
+[![Watch the video](https://classic.exame.com/wp-content/uploads/2017/08/new-youtube-logo-840x402.jpg?quality=70&strip=info&w=500)](https://www.youtube.com/watch?v=bH19pVsqAuI)
+
+
 
 ## :wrench: Como usar a API:
 
