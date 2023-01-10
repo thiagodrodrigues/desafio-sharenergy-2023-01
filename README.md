@@ -100,7 +100,10 @@ O pull request com sua solução do desafio deve ser feito até o prazo limite d
 
 ## :movie_camera: Vídeo Apresentativo do Projeto
 
-[![Watch the video](https://classic.exame.com/wp-content/uploads/2017/08/new-youtube-logo-840x402.jpg?quality=70&strip=info&w=500)](https://www.youtube.com/watch?v=bH19pVsqAuI)
+<h2>
+<p align="center"> <a href="https://www.youtube.com/watch?v=bH19pVsqAuI"><img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/256/youtube-icon.png" alt="youtube" height="30" width="30" alt="github logo"> Vídeo de Apresentação no YouTube <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/256/youtube-icon.png" alt="youtube" height="30" width="30" alt="postman logo"></a> </p>
+</h2>
+</br>
 
 
 
