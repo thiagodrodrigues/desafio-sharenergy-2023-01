@@ -120,7 +120,7 @@ O pull request com sua solução do desafio deve ser feito até o prazo limite d
 6. Caso tudo tenha dado certo, você está pronto para testar a API, caso contrário, revise o passo-a-passo
 
   #FrontEnd
-1. Após executar os comandos de `BackEnd`, abra um segundo terminal integrado a pasta "Front-End" e execute o comando `npm install` ou `yarn install`
+1. Após executar os comandos de `BackEnd`, abra um segundo terminal integrado a pasta `Front-End` e execute o comando `npm install` ou `yarn install`
 2. Execute o comando `npm run dev`
   IMPORTANTE: Os terminais integrados ao FrontEnd e ao BackEnd devem estar rodando simultaneamente!
 3. Caso tudo tenha ocorrido corretamente, acesse o link `Local` em seu navegador para visualizar o projeto, caso contrário, revise o passo-a-passo
