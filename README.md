@@ -1,10 +1,17 @@
 <h1 align=center> Projeto Sharenergy - Vaga DEV Back-End Jr. <br> Thiago Daniel Alvim Rodrigues</hi> <br>
 
 <p align="center">
-  <img src="./docs/logo.jpeg" width="50%">
+  <img src="./BackEnd/docs/logo.jpeg" width="50%">
 </p>
 
 ---
+## Índice
+* [Sobre a SHARENERGY](#sobre-a-sharenergy)
+* [Sobre o projeto](#-sobre-o-projeto)
+* [Como usar a API](#wrench-como-usar-a-api)
+* [Banco de Dados](#floppy_disk-banco-de-dados)
+* [Documentação PostMan](#memo-documentação-da-api)
+* [Sobre o Autor](#--contribuidor-)
 
 ## Sobre a SHARENERGY
 
@@ -94,21 +101,29 @@ O pull request com sua solução do desafio deve ser feito até o prazo limite d
 
 ## :wrench: Como usar a API:
 
-1. Após clonar o repositório, executar o comando `npm install` ou `yarn install`.
-2. Acessar o arquivo `.env example`, renomear o arquivo para `.env` e alterar a conexão do banco de dados com as seguintes instruções:
-- MONGO_HOST="local irá rodar o servidor; exemplo 'localhost' "
-- MONGO_PORT="porta utilizada pelo mongo; por padrão o mongo utiliza a porta 27017"
-- MONGO_USER="nome de usuario no mongo"
+  #BackEnd
+1. Após clonar o repositório, abra um terminal integrado a pasta `BackEnd` e execute o comando `npm install` ou `yarn install`.
+2. Acesse o arquivo `.env example`, renomeie o arquivo para `.env` e altere a conexão do banco de dados com as seguintes instruções:
+- MONGO_HOST="local em que irá rodar o servidor, por exemplo `localhost`";
+- MONGO_PORT="porta utilizada pelo mongo (por padrão o mongo utiliza a porta 27017)";
+- MONGO_USER="nome de usuario no mongo";
 - MONGO_PASS="senha de usuario no mongo"
-- MONGO_NAME="Nome do banco de dados: Sharenergy"
+- MONGO_NAME="Nome do banco de dados: `Sharenergy`"
 - SECRET_KEY="criar senha interna para jsonwebtoken"
 
-Obs: Caso possua Usuário e Senha no MongoDB, acesse o arquivo './src/infrastructure/persistence/mongo/mongo.database.ts' e descomentar linhas '10', '11', '18', '19' e '22' e comente a linha '21'. Caso não possua Usuário e Senha no MongoDB, deixar campos 'MONGO_USER' e 'MONGO_PASS' em branco.
+   IMPORTANTE! </br>
+   - Caso possua 'Usuário' e 'Senha' no MongoDB, acesse o arquivo './src/infrastructure/persistence/mongo/mongo.database.ts', descomente as linhas `10`, `11`, `18`, `19` e `22` e comente a linha `21`. 
+   - Caso não possua Usuário e Senha no MongoDB, deixar campos `MONGO_USER` e `MONGO_PASS` em branco.
 
-3. Executar o comando `npm run mocks` que irá gerar o banco de dados e popular com exemplos.
+3. Executar o comando `npm run mocks` que irá gerar o banco de dados e popular com exemplos, incluindo o `Username`: `desafiosharenergy` / `Password`: `sh@r3n3rgy`";
 4. Executar o comando `npm run debug` para iniciar sua conexão com o servidor
-6. Caso tudo tenha dado certo, você está pronto para testar a API, caso não, revise o passo-a-passo
+6. Caso tudo tenha dado certo, você está pronto para testar a API, caso contrário, revise o passo-a-passo
 
+  #FrontEnd
+1. Após executar os comandos de `BackEnd`, abra um segundo terminal integrado a pasta "Front-End" e execute o comando `npm install` ou `yarn install`
+2. Execute o comando `npm run dev`
+  IMPORTANTE: Os terminais integrados ao FrontEnd e ao BackEnd devem estar rodando simultaneamente!
+3. Caso tudo tenha ocorrido corretamente, acesse o link `Local` em seu navegador para visualizar o projeto, caso contrário, revise o passo-a-passo
 
 
 ## :floppy_disk: Banco de dados:
@@ -116,7 +131,7 @@ Obs: Caso possua Usuário e Senha no MongoDB, acesse o arquivo './src/infrastruc
 O Banco de Dados foi criado no MongoDB Compass seguindo padrão de tabelas e colunas exposto a seguir:
 
 <p align="center">
-<img src="./docs/bd.jpeg" alt="Banco de Dados">
+<img src="./BackEnd/docs/bd.jpeg" alt="Banco de Dados">
 
 </br>
 
