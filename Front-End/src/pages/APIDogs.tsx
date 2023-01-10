@@ -11,7 +11,7 @@ export type ApiProps = {
 
 const ApiDogs = () => {
 
-    const [imagem, setImagem ] = useState<string>("")
+    const [imagem, setImagem ] = useState<string>("https://random.dog/526590d2-8817-4ff0-8c62-fdcba5306d02.jpg")
 
     const USUARIO = localStorage.getItem('token');
 
