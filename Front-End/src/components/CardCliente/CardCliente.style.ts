@@ -9,77 +9,79 @@ export const Card = styled.div`
   display: block;
   border: 0.7px solid #CFCFCF;
   border-radius: 14px;
-  .photo{
+
+  .photo  {
     img{
       max-height: 50px
     }
   }
 
-  @media only screen and (max-width: 800px){
-      height: 90vh;
-      button{
-        margin-bottom: 27px;
-      }
-      }
-    p{
-      margin: 0 0 0 10px;
-      font-family: 'Roboto';
-      font-style: normal;
-      font-size: 18px;
-      display: flex;
-      align-items: center;
-      color: #2C5EDE;
-      @media only screen and (max-width: 800px){
-      font-size: 21px;
-      margin: 0;
-      }
+  @media only screen and (max-width: 800px) {
+  }
+
+  p {
+    margin: 0 0 0 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #2C5EDE;
+
+    @media only screen and (max-width: 800px) {
     }
-    p:first-letter {
-      text-transform: uppercase;
-      }
-    h5{
-      font-size: 25px;
-      color: #2C5EDE;
-      @media only screen and (max-width: 800px){
-      font-size: 28px;
-      }
-    }
-    h5:first-letter {
+  }
+
+  p:first-letter {
     text-transform: uppercase;
+  }
+
+  h5{
+    font-size: 25px;
+    color: #2C5EDE;
+    
+    @media only screen and (max-width: 800px){
     }
-    h6{
-      font-size: 12px;
-      display: flex;
-      align-items: center;
-      color: #464A53;
-      @media only screen and (max-width: 800px){
-      display: block;
-      margin: 0;
-      }
+  }
+
+  h5:first-letter {
+    text-transform: uppercase;
+  }
+
+  h6{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #464A53;
+
+    @media only screen and (max-width: 800px){
     }
-    h6{
-      font-size: 12px;
-      margin: 0 10px 0 10px;
-      @media only screen and (max-width: 800px){
-        margin: 0;
-      }
+  }
+
+  h6{
+    font-size: 12px;
+    margin: 0 10px 0 10px;
+  
+    @media only screen and (max-width: 800px){
     }
-  .linha{
+  }
+
+  .linha  {
     margin: 10px 0px;
     justify-content: flex-start;
-    @media only screen and (max-width: 800px){
-    display: block !important;
-    margin-bottom: 20px;
+    
+    @media only screen and (max-width: 800px) {
    }
   }
-  .icone{
+
+  .icone  {
     margin-left: 5px;
   }
-  .topo{
+
+  .topo {
     margin-bottom: 80px;
-    @media only screen and (max-width: 800px){
-    display: block !important;
-    margin-bottom: 40px;
-   }
+
+    @media only screen and (max-width: 800px) {
+    }
   }
 `

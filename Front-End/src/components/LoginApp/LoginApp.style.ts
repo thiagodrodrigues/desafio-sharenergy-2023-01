@@ -6,84 +6,91 @@ export const  TesteStyle = styled.form`
     border: 0.9875px solid #CFCFCF;
     border-radius: 15.8px;
     padding: 2% 2%;
-    position: absolute;
+    position: fixed;
+    margin-top: -100vh;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 47px;
+    max-width: 450px;
+
     input{
-    border-radius: 10px;
-    border: #DDDFE1 solid 1px;
-    max-width: 30vw;
-    width: 100%;
-    min-height: 53px;
-    padding-left: 17px;
-    }
+        border-radius: 10px;
+        border: #DDDFE1 solid 1px;
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 53px;
+        padding-left: 17px;    
+        }
     input::placeholder{
-    color: #abafb3;
-    font-size: 14px;
+        color: #abafb3;
+        font-size: 14px;
     }
     .login{
       color: white;
       display: grid;
       margin-top: 20px;
       font-size: 19px;
-      input{
-      color: red;
-      width: 53vw;
-      min-width: 100px;
-      max-width: 300px;
+
+      input {
+        color: red;
+        width: 53vw;
+        min-width: 100px;
+        max-width: 300px;
       }
     }
-    .username{
+
+    .username   {
         display: grid;
         color: white;
         margin-top: 20px;
         font-size: 19px;
-        input{
-        width: 53vw;
-        min-width: 30px;
-        max-width: 30vw
-        margin-top: 9px;
-        }
     }
-    .password{
+
+    .password   {
         display: grid;
         color: white;
         margin-top: 20px;
         font-size: 19px;
-        input{
-        width: 53vw;
-        min-width: 30px;
-        max-width: 30vw;
-        margin-top: 9px;
+
+        input   {
+            max-width: 30vw;
+            margin-top: 9px;
         }
     }
-    .remember{
+
+    .remember   {
         display: table-row;
-        max-width: 40vw;
     }
-    .login input{
+
+    .title   {
+        text-align: center;
+    }
+
+    .login input    {
         min-width: 10px;
         max-width: 15px;
         width: 10vw;
         min-height: 10px;
         max-height: 15px;
     }
-
+    
     @media only screen and (max-width: 450px){
-        .username input {
-            width: 100%;
         }
     }
 `
 
 export const  Login = styled.div`
-    width: 90vw;
-    min-width: 10px;
-    max-width: 40vw;
-    min-height: 10px;
-    max-height: 50vh
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (max-width: 800px){
+    }
+
+    
+    @media only screen and (max-width: 450px){
+    }
 `

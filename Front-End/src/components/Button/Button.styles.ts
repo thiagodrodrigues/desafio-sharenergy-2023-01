@@ -10,22 +10,23 @@ export const ButtonLink = styled(Link) `
   padding: 10px 10px 10px 10px;
   text-transform: capitalize;
   text-decoration: none;
+
   :hover{
     color: white;
     text-decoration: none;
   }
+
   :visited{
     color: white;
     text-decoration: none;
   }
+
   :active{
     color: white;
     text-decoration: none;
   }
+
   @media only screen and (max-width: 375px){
-  font-size: 28px;
-  padding: 0px 20px;
-  margin: 0 auto;
 }
 `
 export const ButtonSubmit = styled.button `
@@ -38,30 +39,31 @@ export const ButtonSubmit = styled.button `
   background: #377D22;
   border-radius: 10px;
   padding: 25px 125px 30px 125px;
-  width: 53vw;
+  width: 100%;
+  min-width: 100%;
   max-width: 30vw;
   margin: 20px 0px;
   text-transform: capitalize;
   text-decoration: none;
-  display: grid;
+  display: flex;
+  justify-content: center;
+
   :hover{
     color: white;
   }
+
   .login{
     display: grid;
     margin-top: 20px;
     font-size: 19px;
-    input{
-    color: red;
-    width: 53vw;
-    min-width: 100px;
-    max-width: 300px;
+      input {
+      color: red;
+      width: 53vw;
+      min-width: 100px;
+      max-width: 300px;
     }
-
+  }
 
   @media only screen and (max-width: 375px){
-  font-size: 28px;
-  padding: 0px 0px;
-  margin: 0 auto;
   }
 `

@@ -10,20 +10,15 @@ type LoginProps = {
 }
 
 function AppLogin() {
-
   return (
-    <>
-    <div className="main">
+    <div style={{minHeight: "100vh", display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
         <BackgroundImage
             placeholder={bgImage}
             src={bgImage}
             className="root"
         ></BackgroundImage>
+        <LoginPageApp/>
     </div>
-    <div className="child">
-        <LoginPageApp></LoginPageApp>
-    </div>
-    </>
         
   )
 }

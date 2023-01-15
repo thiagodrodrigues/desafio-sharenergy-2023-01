@@ -14,6 +14,7 @@ export const FooterContainer = styled.div `
     
     @media only screen and (max-width: 428px) {
         flex-direction: column;
+
         span {
             font-size: 12px;
             text-align: center;
@@ -24,6 +25,7 @@ export const FooterContainer = styled.div `
 
 export const IconsContainer = styled.div `
     margin-left: 5%;
+
     img {
         padding: 0 10px;
     }

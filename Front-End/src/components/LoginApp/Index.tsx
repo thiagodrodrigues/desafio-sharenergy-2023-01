@@ -4,7 +4,6 @@ import { TesteStyle, Login } from "./LoginApp.style";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { apiLocal } from "../../api/config"
 import { useNavigate } from "react-router-dom";
-import logo from "../../assets/logo.png";
 import avatar from "../../assets/avatar.png"
 
 type Inputs = {
@@ -68,12 +67,12 @@ const LoginPageApp = () => {
     
     return(
     <>
-      <Login className="Login">
+      <Login>
         <TesteStyle onSubmit={handleSubmit(onSubmit)}>
           <div className="row"> 
             <label className="login">
-              <p className="remember">DESAFIO SHARENERGY - THIAGO RODRIGUES</p>
-              <div className="col-lg-2 col-md-12 col-sm-12 col-12 text-center logo"><img src={avatar} alt="logo" width={410}/></div>
+              <p className="title">DESAFIO SHARENERGY <br/> THIAGO RODRIGUES</p>
+              <div className="col-lg-2 col-md-12 col-sm-12 col-12 text-center logo"><img src={avatar} alt="logo" width={"100%"}/></div>
             </label>
           </div>
           <div className='row'>
@@ -132,12 +131,12 @@ const LoginPageApp = () => {
 
   return (
     <>
-      <Login className="Login">
+      <Login>
         <TesteStyle onSubmit={handleSubmit(onSubmit)}>
             <div className="row"> 
             <label className="login">
-             <p className="remember">DESAFIO SHARENERGY - THIAGO RODRIGUES</p>
-             <div className="col-lg-2 col-md-12 col-sm-12 col-12 text-center logo"><img src={avatar} alt="logo" width={410}/></div>
+             <p className="title">DESAFIO SHARENERGY <br/> THIAGO RODRIGUES</p>
+             <div className="col-lg-2 col-md-12 col-sm-12 col-12 text-center logo"><img src={avatar} alt="logo" width={"100%"}/></div>
             </label>
             </div>
             <div className='row'>

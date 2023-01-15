@@ -1,16 +1,19 @@
 import styled from 'styled-components'
 
 export const TopSection = styled.div`
-  padding: 50px;
-  height: 300px;
   display: flex;
   align-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+  
   div{
     float: left;
   };
   .cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100px;
     width: 300px;
     margin: 50px
@@ -21,10 +24,6 @@ export const TopSection = styled.div`
     align-content: space-between;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  @media only screen and (max-width: 991px){
-  display: block !important;
-  
   }
 `
 export const ListagemUsuarios = styled.div`

@@ -19,28 +19,9 @@ type CardProps = {
 
 const CardUsuario = ({_id, username, name, email, age, photo, index}:CardProps) => {
 
-  const [listaUsuarios, setUsuarios] = useState<UsuariosProps[]>([])
-
   const USUARIO = localStorage.getItem('token');
 
-  const token = USUARIO;
-  const decoded : any = jwt_decode(token!);
-
   const navigate = useNavigate()
-
-  async function getUsuarios() {
-    const { data } = await  apiLocal.get(`/users`,{
-      headers: {
-        Authorization: `Bearer ${USUARIO}`
-      }
-    })
-    setUsuarios(data)
-    }
-
-  useEffect(() => {
-    getUsuarios()
-
-  }, [])
 
   async function deleteUsuarios() {
 
@@ -51,8 +32,6 @@ const CardUsuario = ({_id, username, name, email, age, photo, index}:CardProps) 
     })
       setTimeout(() => {window.location.reload(); navigate('/users'), 1000})
     }
-
-
 
   return (
     <Card>
@@ -80,9 +59,3 @@ const CardUsuario = ({_id, username, name, email, age, photo, index}:CardProps) 
 }
 
 export default CardUsuario
-
-/* 
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-align-items: center; */
