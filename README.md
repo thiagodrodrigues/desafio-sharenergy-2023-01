@@ -98,6 +98,14 @@ Esperamos de você duas entregas: o código no GitHub e um vídeo explicativo no
 O pull request com sua solução do desafio deve ser feito até o prazo limite de entrega, às 23:59 horas do dia 10/01/2023, recebido por email com a descrição do desafio.
 
 
+## :movie_camera: Vídeo Apresentativo do Projeto
+
+<h2>
+<p align="center"> <a href="https://www.youtube.com/watch?v=bH19pVsqAuI"><img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/256/youtube-icon.png" alt="youtube" height="30" width="30" alt="github logo"> Vídeo de Apresentação no YouTube <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/256/youtube-icon.png" alt="youtube" height="30" width="30" alt="postman logo"></a> </p>
+</h2>
+</br>
+
+
 
 ## :wrench: Como usar a API:
 
@@ -120,7 +128,7 @@ O pull request com sua solução do desafio deve ser feito até o prazo limite d
 6. Caso tudo tenha dado certo, você está pronto para testar a API, caso contrário, revise o passo-a-passo
 
   #FrontEnd
-1. Após executar os comandos de `BackEnd`, abra um segundo terminal integrado a pasta "Front-End" e execute o comando `npm install` ou `yarn install`
+1. Após executar os comandos de `BackEnd`, abra um segundo terminal integrado a pasta `Front-End` e execute o comando `npm install` ou `yarn install`
 2. Execute o comando `npm run dev`
   IMPORTANTE: Os terminais integrados ao FrontEnd e ao BackEnd devem estar rodando simultaneamente!
 3. Caso tudo tenha ocorrido corretamente, acesse o link `Local` em seu navegador para visualizar o projeto, caso contrário, revise o passo-a-passo
